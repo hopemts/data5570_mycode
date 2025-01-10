@@ -1,0 +1,74 @@
+[2025-01-10T22:43:43.484Z] info  code-server 4.96.2 08cbdfbdf11925e8a14ee03de97b942bba7e8a94
+[2025-01-10T22:43:43.486Z] info  Using user-data-dir /root/.local/share/code-server
+[2025-01-10T22:43:43.539Z] info  Using config file /home/ubuntu/.config/code-server/config.yaml
+[2025-01-10T22:43:43.539Z] info  HTTPS server listening on https://0.0.0.0/
+[2025-01-10T22:43:43.539Z] info    - Authentication is enabled
+[2025-01-10T22:43:43.539Z] info      - Using password from /home/ubuntu/.config/code-server/config.yaml
+[2025-01-10T22:43:43.540Z] info    - Using certificate for HTTPS: /home/ubuntu/.config/code-server/selfsigned.crt
+[2025-01-10T22:43:43.540Z] info  Session server listening on /root/.local/share/code-server/code-server-ipc.sock
+[22:45:24] 
+
+
+
+
+[22:45:24] Extension host agent started.
+[22:45:25] Started initializing default profile extensions in extensions installation folder. file:///root/.local/share/code-server/extensions
+[22:45:25] Completed initializing default profile extensions in extensions installation folder. file:///root/.local/share/code-server/extensions
+File not found: /var/app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /var/app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[22:45:34] [<unknown>][c65dff7a][ManagementConnection] New connection established.
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///var/app/code-server/lib/vscode/out/server-main.js:207:7980)
+    at process.emit (node:events:530:35)
+[22:45:38] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///var/app/code-server/lib/vscode/out/server-main.js:188:1327)
+    at process.emit (node:events:530:35)
+[22:45:38] [<unknown>][780cecc8][ExtensionHostConnection] New connection established.
+[22:45:38] [<unknown>][780cecc8][ExtensionHostConnection] <13780> Launched Extension Host Process.
+[22:49:41] Getting Manifest... ms-python.python
+[22:49:42] Installing extension: ms-python.python {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: wr {
+    scheme: 'file',
+    authority: '',
+    path: '/root/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///root/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/root/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.96.2', date: '2024-12-19T21:23:46.441Z' }
+}
+[22:49:43] Getting Manifest... ms-python.debugpy
+[22:49:43] Installing extension: ms-python.debugpy {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: wr {
+    scheme: 'file',
+    authority: '',
+    path: '/root/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///root/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/root/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.96.2', date: '2024-12-19T21:23:46.441Z' },
+  context: { dependecyOrPackExtensionInstall: true }
+}
+[22:49:47] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /var/app/code-server/lib/vscode/out/server-main.js
+[22:49:47] Extension signature verification is not done: ms-python.python
+[22:49:49] Extracted extension to file:///root/.local/share/code-server/extensions/ms-python.python-2024.23.0-dev-universal: ms-python.python
+[22:49:49] Renamed to /root/.local/share/code-server/extensions/ms-python.python-2024.23.0-dev-universal
+[22:49:52] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /var/app/code-server/lib/vscode/out/server-main.js
+[22:49:52] Extension signature verification is not done: ms-python.debugpy
+[22:49:53] Extracted extension to file:///root/.local/share/code-server/extensions/ms-python.debugpy-2024.14.0-linux-x64: ms-python.debugpy
+[22:49:53] Renamed to /root/.local/share/code-server/extensions/ms-python.debugpy-2024.14.0-linux-x64
+[22:49:53] Extension installed successfully: ms-python.python file:///root/.local/share/code-server/extensions/extensions.json
+[22:49:53] Extension installed successfully: ms-python.debugpy file:///root/.local/share/code-server/extensions/extensions.json
